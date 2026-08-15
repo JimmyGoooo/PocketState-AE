@@ -1,0 +1,3 @@
+﻿pdb_id,receptor_label_chain,modeled_receptor_residue_count,modeled_auth_seq_range,modeled_label_seq_range,receptor_unobserved_residue_count,water_residue_count_whole_entry,nonpoly_components_detected
+5YWY,A,280,18-346,18-304,52,0,"7UR(label_chain=D,auth_chain=A)"
+7D7M,A,285,19-345,20-304,48,0,"P2E(label_chain=F,auth_chain=A)"

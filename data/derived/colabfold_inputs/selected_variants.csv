@@ -1,0 +1,7 @@
+variant_id,wild_type_aa,position,mutant_aa,rationale,include_in_colabfold
+PTGER4_M27A,M,27,A,Reduce hydrophobic side-chain volume adjacent to the PGE2 ring,YES
+PTGER4_T69A,T,69,A,Remove a hydroxyl group adjacent to the PGE2 ring,YES
+PTGER4_S73A,S,73,A,Remove a hydroxyl group adjacent to the PGE2 ring,YES
+PTGER4_Y80F,Y,80,F,Retain aromatic bulk while removing the Tyr hydroxyl group,YES
+PTGER4_T168A,T,168,A,Test ECL2 hydroxyl contribution to ligand recognition,YES
+PTGER4_R316A,R,316,A,Remove the TM7 positive charge implicated in PGE2 carboxyl-group recognition,YES

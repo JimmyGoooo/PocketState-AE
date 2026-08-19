@@ -1,0 +1,28 @@
+﻿PocketState-AE structure download log
+
+Download time:
+2026-08-13 17:24:43 +08:00
+
+Target:
+Human PTGER4 / EP4
+UniProt:
+P35408
+
+RCSB structures:
+
+5YWY
+Source:
+https://files.rcsb.org/download/5YWY.cif
+Role:
+inactive / antagonist experimental anchor
+
+7D7M
+Source:
+https://files.rcsb.org/download/7D7M.cif
+Role:
+active / PGE2-Gs experimental anchor
+
+UniProt sequence:
+https://rest.uniprot.org/uniprotkb/P35408.fasta
+
+Raw files must not be modified.

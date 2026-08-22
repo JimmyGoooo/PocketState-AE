@@ -1,0 +1,2 @@
+# P1 feature extraction only. ColabFold itself remains containerized on server.
+numpy>=1.26,<3

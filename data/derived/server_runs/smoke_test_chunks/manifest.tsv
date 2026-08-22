@@ -1,0 +1,4 @@
+array_index	input_fasta	sequence_count	minimum_length	maximum_length
+1	chunk_0001.fasta	3	488	488
+2	chunk_0002.fasta	3	488	488
+3	chunk_0003.fasta	1	488	488

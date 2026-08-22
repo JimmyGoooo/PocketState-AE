@@ -1,0 +1,703 @@
+{
+  "schema_version": "1.0",
+  "target": {
+    "gene": "PTGER4",
+    "protein": "prostaglandin E2 receptor EP4 subtype",
+    "uniprot_id": "P35408"
+  },
+  "cutoff_angstrom": 6.0,
+  "sources": {
+    "input_csv": {
+      "path": "data/derived/c3_ligand_pockets/ep4_ligand_pocket_residues_within_6A.csv",
+      "sha256": "133b7c7c06af9da34a66abfc20a7e334d18fb10987e9980ae1b33e54169023df"
+    },
+    "anchors": [
+      {
+        "anchor_id": "5YWY_7UR",
+        "pdb_id": "5YWY",
+        "ligand_id": "7UR",
+        "receptor_label_chain": "A"
+      },
+      {
+        "anchor_id": "7D7M_P2E",
+        "pdb_id": "7D7M",
+        "ligand_id": "P2E",
+        "receptor_label_chain": "A"
+      }
+    ]
+  },
+  "position_count": 38,
+  "positions": [
+    {
+      "order": 1,
+      "uniprot_position": 20,
+      "residue_name_3letter": "PRO",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 4.906
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 2,
+      "uniprot_position": 23,
+      "residue_name_3letter": "ILE",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 4.214
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.672
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 3,
+      "uniprot_position": 24,
+      "residue_name_3letter": "PRO",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.653
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.447
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 4,
+      "uniprot_position": 25,
+      "residue_name_3letter": "ALA",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.687
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 5,
+      "uniprot_position": 27,
+      "residue_name_3letter": "MET",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 4.037
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.12
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 6,
+      "uniprot_position": 28,
+      "residue_name_3letter": "PHE",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 4.084
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 7,
+      "uniprot_position": 65,
+      "residue_name_3letter": "ASP",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.073
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 8,
+      "uniprot_position": 68,
+      "residue_name_3letter": "GLY",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.771
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 9,
+      "uniprot_position": 69,
+      "residue_name_3letter": "THR",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.08
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "nearest_specific_to_7D7M_P2E"
+    },
+    {
+      "order": 10,
+      "uniprot_position": 70,
+      "residue_name_3letter": "LEU",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.498
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 11,
+      "uniprot_position": 72,
+      "residue_name_3letter": "VAL",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.904
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.412
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 12,
+      "uniprot_position": 73,
+      "residue_name_3letter": "SER",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.294
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "nearest_specific_to_7D7M_P2E"
+    },
+    {
+      "order": 13,
+      "uniprot_position": 74,
+      "residue_name_3letter": "PRO",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.332
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 14,
+      "uniprot_position": 75,
+      "residue_name_3letter": "VAL",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.934
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 15,
+      "uniprot_position": 76,
+      "residue_name_3letter": "THR",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 2.755
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.293
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 16,
+      "uniprot_position": 77,
+      "residue_name_3letter": "ILE",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.294
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 17,
+      "uniprot_position": 79,
+      "residue_name_3letter": "THR",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.681
+        },
+        "7D7M_P2E": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 18,
+      "uniprot_position": 80,
+      "residue_name_3letter": "TYR",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 2.031
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.133
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 19,
+      "uniprot_position": 99,
+      "residue_name_3letter": "LEU",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.303
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.708
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 20,
+      "uniprot_position": 100,
+      "residue_name_3letter": "LEU",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.712
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 21,
+      "uniprot_position": 102,
+      "residue_name_3letter": "PHE",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 4.799
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 22,
+      "uniprot_position": 103,
+      "residue_name_3letter": "SER",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.526
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 23,
+      "uniprot_position": 166,
+      "residue_name_3letter": "PRO",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.504
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.924
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 24,
+      "uniprot_position": 168,
+      "residue_name_3letter": "THR",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.445
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.271
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 25,
+      "uniprot_position": 169,
+      "residue_name_3letter": "TRP",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.418
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.823
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 26,
+      "uniprot_position": 170,
+      "residue_name_3letter": "CYS",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.798
+        },
+        "7D7M_P2E": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 27,
+      "uniprot_position": 288,
+      "residue_name_3letter": "LEU",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.859
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 28,
+      "uniprot_position": 306,
+      "residue_name_3letter": "VAL",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.191
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 29,
+      "uniprot_position": 312,
+      "residue_name_3letter": "LEU",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.617
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.371
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 30,
+      "uniprot_position": 314,
+      "residue_name_3letter": "ALA",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.799
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 31,
+      "uniprot_position": 315,
+      "residue_name_3letter": "ILE",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.411
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.705
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 32,
+      "uniprot_position": 316,
+      "residue_name_3letter": "ARG",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 2.554
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.338
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 33,
+      "uniprot_position": 317,
+      "residue_name_3letter": "ILE",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 4.668
+        },
+        "7D7M_P2E": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "nearest_specific_to_5YWY_7UR"
+    },
+    {
+      "order": 34,
+      "uniprot_position": 318,
+      "residue_name_3letter": "ALA",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 5.115
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.412
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 35,
+      "uniprot_position": 319,
+      "residue_name_3letter": "SER",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 2.914
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.625
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "shared_between_anchors"
+    },
+    {
+      "order": 36,
+      "uniprot_position": 320,
+      "residue_name_3letter": "VAL",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 3.227
+        },
+        "7D7M_P2E": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        }
+      },
+      "in_feature_panel": true,
+      "feature_panel_reason": "nearest_specific_to_5YWY_7UR"
+    },
+    {
+      "order": 37,
+      "uniprot_position": 322,
+      "residue_name_3letter": "PRO",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 4.245
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    },
+    {
+      "order": 38,
+      "uniprot_position": 323,
+      "residue_name_3letter": "ILE",
+      "anchors": {
+        "5YWY_7UR": {
+          "present": false,
+          "minimum_heavy_atom_distance_angstrom": null
+        },
+        "7D7M_P2E": {
+          "present": true,
+          "minimum_heavy_atom_distance_angstrom": 4.467
+        }
+      },
+      "in_feature_panel": false,
+      "feature_panel_reason": null
+    }
+  ],
+  "feature_panel": {
+    "selection_rule": "all positions present in both anchors plus the two anchor-specific positions with the shortest ligand heavy-atom distance for each anchor; ties are resolved by ascending UniProt position",
+    "position_count": 19,
+    "positions": [
+      23,
+      24,
+      27,
+      69,
+      72,
+      73,
+      76,
+      80,
+      99,
+      166,
+      168,
+      169,
+      312,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320
+    ]
+  }
+}
